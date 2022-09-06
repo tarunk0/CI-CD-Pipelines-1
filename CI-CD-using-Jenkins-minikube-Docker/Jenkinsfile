@@ -19,7 +19,7 @@ pipeline{
     } 
     environment {
         dockerImage = ''
-        registry    = 'amitsharma17133129/apache-app-citymall'
+        registry    = 'tarunk0/demoapp'
         registryCredential = 'docker_hub_cred'
     }
     stages{
